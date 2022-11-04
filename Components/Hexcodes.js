@@ -13,6 +13,8 @@ const Hexcodes = {
   "#FF00FF": "35m",
   "#00FFFF": "36m",
   "#FF0000": "91m",
+  "#FFFF00": "33m",
+  "#00FF00": "32m",
 };
 
 module.exports = Hexcodes;

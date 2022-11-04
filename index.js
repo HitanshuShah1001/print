@@ -1,6 +1,6 @@
 const Hexcodes = require("./Components/Hexcodes");
 
-exports.Print = function (
+function Coloredconsole(
   message = "No logs provided!",
   color = "White",
   ...args
@@ -14,4 +14,6 @@ exports.Print = function (
   } else {
     console.log(message);
   }
-};
+}
+
+module.exports = Coloredconsole;
