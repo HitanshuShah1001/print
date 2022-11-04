@@ -1,0 +1,12 @@
+{
+  "name": "print",
+  "version": "1.0.0",
+  "description": "Custom coloured console.logs",
+  "main": "./index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hitanshu Shah",
+  "license": "ISC"
+}
