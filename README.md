@@ -11,7 +11,11 @@ Hexcodes:-(#FF00FF,#FFFF00,#00FF00,#0000FF,#FF0000,#00FFFF,#000000,#FFFFFF)
 ## Usage
 
 ```
+For node js:-
 var Coloredconsole = require('coloredprints');
+For ES6 :- 
+import Coloredconsole from "coloredprints";
+Note that you can replace "Coloredconsole" with any name of your liking.
 Coloredconsole("your message here","color here");
 For example:- Coloredconsole("Hi","Cyan");
 No colors provided will default to White.
